@@ -38,7 +38,7 @@ export default function Home({ blogs, clogs }) {
                   border: "1px solid black",
                   borderRadius: "10px",
                   top: "10px",
-                }}
+                }} key = {blog.id}
               >
                 <h2>{blog.name}</h2>
                 <h4>{blog.full_name}</h4>

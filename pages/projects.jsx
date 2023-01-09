@@ -5,7 +5,7 @@ const Projects = ({ blogs }) => {
   return (
     <div className={styles.mainDiv}>
       {blogs.map((blog) => (
-        <div style={{border:'1px solid black', borderRadius:'10px',top:'10px'}}>
+        <div key = {blog.id} style={{border:'1px solid black', borderRadius:'10px',top:'10px'}}>
             <h2>{blog.name}</h2>
             <h4>{blog.full_name}</h4>
         </div>

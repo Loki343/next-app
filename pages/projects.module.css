@@ -1,0 +1,16 @@
+.mainDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.mainDiv1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-left: -300px;
+}
+.mainmain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
